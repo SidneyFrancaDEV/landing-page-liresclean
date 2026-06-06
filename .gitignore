@@ -1,0 +1,14 @@
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Variáveis de ambiente / segredos
+.env
+.env.local
+.env.*.local
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
