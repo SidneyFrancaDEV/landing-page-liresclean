@@ -1,0 +1,45 @@
+:root {
+  --color-primary: #259eab;
+  --color-dark: #07353f;
+  --color-light: #f7fbfc;
+  --color-whatsapp-green: #25d366;
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --bs-body-font-family: var(--font-body);
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: var(--font-heading);
+}
+
+.bg-brand-light {
+  background-color: var(--color-light);
+}
+
+.text-brand {
+  color: var(--color-primary);
+}
+
+.text-brand-dark {
+  color: var(--color-dark);
+}
+
+.bg-brand-dark {
+  background-color: var(--color-dark);
+}
+
+.bg-whatsapp-green {
+  background-color: var(--color-whatsapp-green);
+}
