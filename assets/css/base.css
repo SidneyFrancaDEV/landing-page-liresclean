@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --color-primary: #259eab;
   --color-dark: #07353f;
@@ -11,6 +15,7 @@
 }
 
 body {
+  margin: 0;
   font-family: var(--font-body);
 }
 
@@ -22,6 +27,10 @@ h5,
 h6,
 .navbar-brand {
   font-family: var(--font-heading);
+}
+
+.bg-brand-primary {
+  background-color: var(--color-primary);
 }
 
 .bg-brand-light {
@@ -40,6 +49,51 @@ h6,
   background-color: var(--color-dark);
 }
 
-.bg-whatsapp-green {
+.btn-whatsapp {
   background-color: var(--color-whatsapp-green);
+  color: #fff;
+  border: none;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebd5a;
+  color: #fff;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.results-swiper .swiper-button-next::after,
+.results-swiper .swiper-button-prev::after,
+.testimonials-swiper .swiper-button-next::after,
+.testimonials-swiper .swiper-button-prev::after {
+  font-size: 1.25rem;
+}
+
+.results-swiper .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.35;
+}
+
+.results-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  background: var(--color-primary);
+  opacity: 0.35;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.testimonial-avatar {
+  width: 56px;
+  height: 56px;
 }
