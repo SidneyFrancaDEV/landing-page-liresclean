@@ -134,7 +134,7 @@ A interface foi construída numa abordagem "mobile-first" pois entendemos que a 
 ## Uso de Inteligência Artificial
 
 Conforme exigido, o uso de IA foi documentado no código quando aplicável.
-A maior parte do projeto foi estruturada com base em exemplos e e snippets de documentação, sendo a IA na maior parte utilizada como apoio.
+A maior parte do projeto foi estruturada com base em exemplos e e snippets de documentação, sendo a IA na maior parte utilizada para consulta e apoio.
 
 Além disso, este `README` também foi refinado com apoio do ChatGPT.
 
