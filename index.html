@@ -36,6 +36,7 @@
       href="/assets/images/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -620,5 +621,16 @@
         </div>
       </div>
     </footer>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", function (user) {
+          if (!user) {
+            window.netlifyIdentity.on("login", function () {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
