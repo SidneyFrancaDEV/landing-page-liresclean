@@ -5,6 +5,7 @@
 :root {
   --color-primary: #259eab;
   --color-dark: #07353f;
+  --color-back: #153F49;
   --color-light: #f7fbfc;
   --color-whatsapp-green: #25d366;
 
@@ -49,6 +50,26 @@ h6,
   background-color: var(--color-dark);
 }
 
+.bg-brand-primary {
+  background-color: var(--color-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.bg-brand-back {
+  background-color: var(--color-back);
+}
+
+.bg-whatsapp {
+  background-color: var(--color-whatsapp-green);
+  color: #fff;
+}
+
 .btn-whatsapp {
   background-color: var(--color-whatsapp-green);
   color: #fff;
@@ -58,10 +79,6 @@ h6,
 .btn-whatsapp:hover {
   background-color: #1ebd5a;
   color: #fff;
-}
-
-img {
-  object-fit: cover;
 }
 
 a {
