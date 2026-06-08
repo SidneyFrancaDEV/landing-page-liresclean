@@ -1,0 +1,101 @@
+local_backend: true
+locale: pt
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "geral"
+    label: "Geral"
+    files:
+      - name: "hero"
+        label: "Conteúdo do Hero"
+        file: "content/hero.json"
+        fields:
+          - label: "Título"
+            name: "titulo"
+            widget: "string"
+
+          - label: "Descrição"
+            name: "descricao"
+            widget: "string"
+
+          - label: "Texto alternativo da imagem"
+            name: "alt"
+            widget: "string"
+            required: false
+
+          - label: "Imagem do Hero"
+            name: "imagem"
+            widget: "image"
+
+      - name: "contatos"
+        label: "Contatos"
+        file: "content/contatos.json"
+        fields:
+          - label: "Número do WhatsApp"
+            name: "numero"
+            widget: "string"
+
+          - label: "E-mail"
+            name: "email"
+            widget: "string"
+
+          - label: "Endereço"
+            name: "endereco"
+            widget: "string"
+
+          - label: "Horário de funcionamento"
+            name: "horario"
+            widget: "string"
+
+          - label: "Numero do telefone"
+            name: "telefone"
+            widget: "string"
+
+  - name: "depoimentos"
+    label: "Depoimentos"
+    files:
+      - name: "depoimentos"
+        label: "Lista de depoimentos"
+        file: "content/depoimentos.json"
+        fields:
+          - label: "Depoimentos"
+            name: "depoimentos"
+            widget: "list"
+            fields:
+              - label: "Cliente"
+                name: "nome"
+                widget: "string"
+
+              - label: "Depoimento"
+                name: "texto"
+                widget: "text"
+
+              - label: "Imagem"
+                name: "imagem"
+                widget: "image"
+
+  - name: "resultados"
+    label: "Resultados"
+    files:
+      - name: "resultados"
+        label: "Lista de resultados"
+        file: "content/resultados.json"
+        fields:
+          - label: "Resultados"
+            name: "resultados"
+            widget: "list"
+            fields:
+              - label: "Imagem antes e depois"
+                name: "imagem"
+                widget: "image"
+
+              - label: "Texto alternativo"
+                name: "alt"
+                widget: "string"
+                required: false
