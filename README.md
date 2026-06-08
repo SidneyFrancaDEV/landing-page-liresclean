@@ -3,7 +3,7 @@
 Landing page institucional desenvolvida para a **LiresClean**, com foco na divulgação de serviços de limpeza profunda e higienização residencial, apresentação de resultados, prova social e conversão de contatos por WhatsApp.
 
 > [!NOTE]
-> Parte do conteudo do site como textos e imagens podem ainda ser conteudo "template" aguardando pocisionamento do parceiro para atualização.
+> Parte do conteudo do site, como textos e imagens, podem ainda ser conteudo "template" aguardando pocisionamento do parceiro para atualização.
 
 ## Sobre o projeto
 
@@ -125,7 +125,7 @@ Nesse caso, o `Node.js` precisa estar instalado no computador.
 
 ## Responsividade
 
-A interface foi construída com foco em adaptação para diferentes tamanhos de tela, utilizando o grid do Bootstrap, utilitários responsivos e CSS próprio para manter legibilidade, espaçamento e hierarquia visual em mobile e desktop.
+A interface foi construída numa abordagem "mobile-first" pois entendemos que a maior parte do acesso se dará via dispostivos moveis. Para responsivida foi utilizado o Bootstrap e CSS próprio.
 
 ## Uso de Inteligência Artificial
 
