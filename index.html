@@ -93,60 +93,72 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-brand-light rounded bg-white"
+        class="navbar navbar-expand-lg bg-brand-light bg-white py-3 px-3 px-lg-4"
         aria-label="Eleventh navbar example"
       >
-        <span class="ms-3">
-          <img
-            src="assets/images/logo.png"
-            alt=""
-            class="navbar-brand me-3"
-            style="width: 150px"
-          />
-        </span>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample09"
-          aria-controls="navbarsExample09"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse me-lg-4" id="navbarsExample09">
-          <ul
-            class="navbar-nav w-100 mb-2 mb-lg-0 d-flex justify-content-end align-items-center gap-2"
+        <div class="container-fluid px-0">
+          <a
+            class="navbar-brand d-flex align-items-center me-0"
+            href="#hero-section"
           >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Antes e Depois</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Depoimentos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">FAQ</a>
-            </li>
-            <li class="nav-item me-lg-5">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Contato</a
-              >
-            </li>
-            <div
-              class="d-flex justify-content-center co-lg-4 nav-item me-lg-4 ms-lg-4"
+            <img
+              src="assets/images/logo.png"
+              alt="LiresClean Logo"
+              class="img-fluid"
+              style="width: 150px"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler border-0 px-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample09"
+            aria-controls="navbarsExample09"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse pt-3 pt-lg-0"
+            id="navbarsExample09"
+          >
+            <ul
+              class="navbar-nav ms-auto mb-3 mb-lg-0 align-items-lg-center gap-lg-2"
             >
-              <a class="btn btn-whatsapp rounded-5" href="" data-whatsapp-link>
-                <i class="bi bi-whatsapp me-3"></i>Falar no WhatsApp
+              <li class="nav-item">
+                <a class="nav-link px-lg-3" href="#results-section">
+                  Antes e Depois
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-lg-3" href="#testemonials-section">
+                  Depoimentos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-lg-3" href="#faq-section"> FAQ </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-lg-3" href="#contact-section">
+                  Contato
+                </a>
+              </li>
+            </ul>
+
+            <div class="d-grid d-lg-flex justify-content-lg-end ms-lg-3">
+              <a
+                class="btn btn-whatsapp rounded-pill px-4 py-2 d-inline-flex align-items-center justify-content-center gap-2"
+                href=""
+                data-whatsapp-link
+              >
+                <i class="bi bi-whatsapp"></i>
+                Falar no WhatsApp
               </a>
             </div>
-          </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -193,7 +205,7 @@
             </div>
 
             <div
-              class="d-grid gap-2 d-md-flex justify-content-md-start mb-3 mb-md-4 my-md-3"
+              class="d-grid gap-2 d-md-flex justify-content-md-start mb-3 mb-md-4 my-3 my-md-5"
             >
               <a
                 class="btn btn-whatsapp rounded-pill px-3 px-md-5 py-2 py-md-2 me-md-2 text-nowrap d-inline-flex align-items-center justify-content-center gap-2"
@@ -408,7 +420,7 @@
         </div>
       </section>
 
-      <section class="m-4" data-aos="fade-up">
+      <section id="faq-section" class="m-4" data-aos="fade-up">
         <h2 class="text-center fw-bold mt-5" data-aos="fade-up">
           Perguntas frequentes
         </h2>
@@ -419,6 +431,7 @@
       </section>
 
       <section
+        id="contact-section"
         class="bg-brand-dark text-light px-3 px-lg-5 py-5"
         data-aos="fade-up"
       >
@@ -533,65 +546,88 @@
       </section>
     </main>
 
-    <footer class="py-lg-3 py-2 bg-brand-primary text-light">
-      <div class="d-flex justify-content-between row m-0 ps-md-2">
-        <div
-          class="d-flex justify-content-center col-sm-6 col-12 flex-column mb-3"
-        >
-          <div class="d-flex mb-3">
-            <h2 class="mt-2">
+    <footer class="bg-brand-primary text-light py-5">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-5">
+            <a class="d-inline-block mb-3" href="#hero-section">
               <img
                 src="assets/images/logo.png"
-                alt=""
-                class="me-3"
+                alt="LiresClean"
+                class="img-fluid"
                 style="width: 150px"
               />
-            </h2>
+            </a>
+            <p class="text-white-50 mb-3">
+              Especialistas em higienização de estofados em São Paulo e região.
+              Qualidade, saúde e conforto para o seu lar.
+            </p>
           </div>
-          <p class="col-10 col-md-6 mt-2 mb-0 text-white-50">
-            Especialistas em higienização de estofados em São Paulo e região.
-            Qualidade, saúde e conforto para o seu lar.
-          </p>
-        </div>
-        <div
-          class="col-sm-6 col-12 mb-3 d-flex justify-content-between justify-content-sm-center align-items-end align-items-md-center border-sm-0"
-        >
-          <ul class="nav d-flex flex-column gap-2 me-sm-5 ms-sm-0 ms-3">
-            <li class="nav-item">
-              <a href="#" class="nav-link footer-options">Início</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link footer-options">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link footer-options">Antes e Depois</a>
-            </li>
-          </ul>
 
-          <ul class="nav d-flex flex-column gap-2 ms-sm-4 me-sm-0 me-4">
-            <li class="nav-item">
-              <a href="#" class="nav-link footer-options">Depoimentos</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link footer-options">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link footer-options">Contato</a>
-            </li>
-          </ul>
+          <div class="col-6 col-lg-3">
+            <h3 class="h6 text-uppercase fw-semibold mb-3">Navegação</h3>
+            <ul class="nav flex-column gap-2">
+              <li class="nav-item">
+                <a href="#hero-section" class="nav-link p-0 text-white-50"
+                  >Início</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="#results-section" class="nav-link p-0 text-white-50"
+                  >Antes e Depois</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#testemonials-section"
+                  class="nav-link p-0 text-white-50"
+                  >Depoimentos</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-4">
+            <h3 class="h6 text-uppercase fw-semibold mb-3">Atendimento</h3>
+            <ul class="nav flex-column gap-2 mb-3">
+              <li class="nav-item">
+                <a href="#faq-section" class="nav-link p-0 text-white-50"
+                  >FAQ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#contact-section" class="nav-link p-0 text-white-50"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div
-        class="d-flex justify-content-between justify-content-sm-start my-1 me-2 ms-2 ps-md-2"
-      >
-        <p class="text-white-50 mt-2">
-          &copy;2026 LiresClean. Todos os direitos reservados.
-        </p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3 bg-brand-secondary icons-footer rounded-5">
-            <i class="bi bi-whatsapp me-2 ms-2"></i>
-          </li>
-        </ul>
+
+        <div class="border-top border-light border-opacity-25 mt-4 pt-3">
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-between gap-2"
+          >
+            <p class="text-white-50 mb-0">
+              &copy; LiresClean. Todos os direitos reservados.
+            </p>
+            <p class="text-white-50 mb-0">
+              Desenvolvido por
+              <a
+                href="https://www.linkedin.com/in/sidney-fran%C3%A7a-86724b28b/"
+                class="text-white text-decoration-none"
+                >Sidney França</a
+              >
+              e
+              <a
+                href=""
+                class="text-white text-decoration-none"
+                >Vinicius de Souza</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
