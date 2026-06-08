@@ -19,10 +19,12 @@ collections:
           - label: "Título"
             name: "titulo"
             widget: "string"
+            hint: "Título principal mostrado no topo da página."
 
           - label: "Descrição"
             name: "descricao"
             widget: "string"
+            hint: "Fase de 'efeito'."
 
           - label: "Texto alternativo da imagem"
             name: "alt"
@@ -40,18 +42,16 @@ collections:
           - label: "Número do WhatsApp"
             name: "numero"
             widget: "string"
+            hint: "Número de telefone para contato via WhatsApp. Preencha nesse formato: 11 999999999."
 
           - label: "E-mail"
             name: "email"
             widget: "string"
 
-          - label: "Endereço"
-            name: "endereco"
-            widget: "string"
-
           - label: "Horário de funcionamento"
             name: "horario"
             widget: "string"
+            hint: "Preencha exatamente como aparecerá na tela.Exemplo: 9h às 18h"
 
           - label: "Numero do telefone"
             name: "telefone"
@@ -99,3 +99,22 @@ collections:
                 name: "alt"
                 widget: "string"
                 required: false
+
+  - name: "faq"
+    label: "Perguntas Frequentes"
+    files:
+      - name: "faq"
+        label: "FAQ"
+        file: "content/faq.json"
+        fields:
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            fields:
+              - label: "Pergunta"
+                name: "pergunta"
+                widget: "string"
+
+              - label: "Resposta"
+                name: "resposta"
+                widget: "string"
