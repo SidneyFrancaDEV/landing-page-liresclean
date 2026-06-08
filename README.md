@@ -1,8 +1,8 @@
 # LiresClean
 
-Landing page institucional desenvolvida para a **LiresClean**, com foco na divulgação de serviços de limpeza profunda e higienização residencial, apresentação de resultados, prova social e conversão de contatos por WhatsApp.
+Landing page institucional desenvolvida para a **LiresClean**, com foco na divulgação de serviços de higienização de estofados, apresentação de resultados, prova social e conversão de contatos por WhatsApp.
 
-> [!NOTE]
+> [!NOTA]
 > Parte do conteudo do site, como textos e imagens, podem ainda ser conteudo "template" aguardando pocisionamento do parceiro para atualização.
 
 ## Sobre o projeto
@@ -132,8 +132,6 @@ Nesse caso, o `Node.js` precisa estar instalado no computador.
 A interface foi construída numa abordagem "mobile-first" pois entendemos que a maior parte do acesso se dará via dispostivos moveis. Para responsivida foi utilizado o Bootstrap e CSS próprio.
 
 ## Uso de Inteligência Artificial
-
-Conforme exigido, o uso de IA foi documentado no código quando aplicável.
 A maior parte do projeto foi estruturada com base em exemplos e e snippets de documentação, sendo a IA na maior parte utilizada para consulta e apoio.
 
 Além disso, este `README` também foi refinado com apoio do ChatGPT.
