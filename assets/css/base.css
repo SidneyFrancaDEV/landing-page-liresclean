@@ -4,6 +4,7 @@
 
 :root {
   --color-primary: #259eab;
+  --color-secondary: #2dbbca;
   --color-dark: #07353f;
   --color-back: #153F49;
   --color-light: #f7fbfc;
@@ -34,6 +35,10 @@ h6,
   background-color: var(--color-primary);
 }
 
+.bg-brand-secondary {
+  background-color: var(--color-secondary);
+}
+
 .bg-brand-light {
   background-color: var(--color-light);
 }
@@ -48,10 +53,6 @@ h6,
 
 .bg-brand-dark {
   background-color: var(--color-dark);
-}
-
-.bg-brand-primary {
-  background-color: var(--color-primary);
 }
 
 img {
@@ -113,4 +114,32 @@ a {
 .testimonial-avatar {
   width: 56px;
   height: 56px;
+}
+
+.footer-options{
+  color: white;
+  padding: 0px;
+}
+
+.icons-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.border-sm-0 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 5px 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.345);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.345);
+}
+
+@media (min-width: 576px) {
+    .border-sm-0 {
+        padding: 0;
+        border: 0;
+    }
 }
