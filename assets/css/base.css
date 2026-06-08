@@ -10,8 +10,8 @@
   --color-light: #f7fbfc;
   --color-whatsapp-green: #25d366;
 
-  --font-heading: "Poppins", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --font-heading: "Merriweather", serif;
+  --font-body: "Public Sans", sans-serif;
 
   --bs-body-font-family: var(--font-body);
 }
