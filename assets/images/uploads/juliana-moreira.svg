@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar ficticio de Juliana Moreira</title>
+  <desc id="desc">Ilustracao circular de uma cliente ficticia.</desc>
+  <rect width="160" height="160" rx="80" fill="#f5edf8"/>
+  <path d="M37 149c6-31 23-49 43-49s37 18 43 49" fill="#259eab"/>
+  <path d="M43 75c0-32 16-52 39-52 24 0 39 20 39 52 0 21-10 39-25 48H66c-14-9-23-27-23-48z" fill="#5a3328"/>
+  <circle cx="80" cy="72" r="32" fill="#d99a74"/>
+  <path d="M49 70c6-26 23-38 43-36 14 8 24 20 29 36-19-2-35-9-47-21-6 9-14 16-25 21z" fill="#5a3328"/>
+  <circle cx="68" cy="75" r="3" fill="#1b2225"/>
+  <circle cx="92" cy="75" r="3" fill="#1b2225"/>
+  <path d="M69 93c8 7 16 7 23 0" fill="none" stroke="#8c5142" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="57" cy="85" r="6" fill="#e4aa90" opacity=".55"/>
+  <circle cx="103" cy="85" r="6" fill="#e4aa90" opacity=".55"/>
+</svg>

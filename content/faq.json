@@ -2,15 +2,27 @@
   "faq": [
     {
       "pergunta": "Quanto tempo leva a higienização de um sofá?",
-      "resposta": "Depende do tamanho e do nível de sujeira; em média 1 a 2 horas."
+      "resposta": "O tempo varia conforme o tamanho do sofá e o nível de sujeira, mas a maioria dos atendimentos leva entre 1 e 2 horas. Antes de começar, avaliamos o tecido e explicamos o processo."
     },
     {
       "pergunta": "Os produtos utilizados são seguros para crianças e pets?",
-      "resposta": "Sim usamos produtos específicos, não tóxicos e testados para ambientes domésticos."
+      "resposta": "Sim. Utilizamos produtos profissionais adequados para ambientes domésticos, com aplicação controlada e foco em segurança para a rotina da casa."
     },
     {
       "pergunta": "Vocês atendem em domicílio?",
-      "resposta": "Sim, atendemos em domicílio em São Paulo e região."
+      "resposta": "Sim. O atendimento é feito no local, com equipamentos próprios, para que voce nao precise transportar sofá, colchão, tapete ou poltrona."
+    },
+    {
+      "pergunta": "Em quanto tempo posso usar o estofado depois da limpeza?",
+      "resposta": "O tempo de secagem depende do tecido, da ventilação do ambiente e do clima no dia. Em geral, orientamos aguardar algumas horas e manter o local bem arejado."
+    },
+    {
+      "pergunta": "A higienização remove manchas e mau cheiro?",
+      "resposta": "A limpeza ajuda a reduzir sujeiras, odores e muitas manchas do uso diário. Manchas antigas, pigmentadas ou causadas por produtos inadequados podem exigir avaliação antes do serviço."
+    },
+    {
+      "pergunta": "Como faço para pedir um orçamento?",
+      "resposta": "Voce pode chamar pelo WhatsApp e enviar fotos do item que deseja higienizar. Com essas informações, conseguimos avaliar melhor o serviço e passar uma estimativa mais precisa."
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
   "depoimentos": [
     {
-      "nome": "Brunão Balanga Beiço",
+      "nome": "Marina Duarte",
       "texto": "Fiquei impressionada com o resultado. O sofá parecia novo e o atendimento foi super cuidadoso do início ao fim.",
-      "imagem": "https://tse4.mm.bing.net/th/id/OIP.7ZCF5YfXV5DMY9nVNErAjgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      "imagem": "/assets/images/uploads/marina-duarte.svg"
     },
     {
-      "nome": "Rafael Martins",
+      "nome": "Rafael Campos",
       "texto": "Além da limpeza impecável, o cheiro ficou ótimo e suave. Minha filha alérgica sentiu a diferença já no mesmo dia.",
-      "imagem": "./assets/images/hero-img.png"
+      "imagem": "/assets/images/uploads/rafael-campos.svg"
     },
     {
-      "nome": "Juliana Rocha",
+      "nome": "Juliana Moreira",
       "texto": "Pontuais, educados e muito caprichosos. O tapete da sala, que eu já pensava em trocar, voltou a ter cara de novo.",
-      "imagem": "./assets/images/hero-img.png"
+      "imagem": "/assets/images/uploads/juliana-moreira.svg"
     },
     {
-      "nome": "Eduardo Lima",
+      "nome": "Eduardo Nascimento",
       "texto": "Fechamos para higienização de colchões e estofados. Serviço excelente, rápido e com muito cuidado em cada detalhe.",
-      "imagem": "./assets/images/hero-img.png"
+      "imagem": "/assets/images/uploads/eduardo-nascimento.svg"
     }
   ]
 }

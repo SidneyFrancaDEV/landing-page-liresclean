@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar ficticio de Eduardo Nascimento</title>
+  <desc id="desc">Ilustracao circular de um cliente ficticio.</desc>
+  <rect width="160" height="160" rx="80" fill="#eef5f7"/>
+  <path d="M37 149c6-31 23-49 43-49s37 18 43 49" fill="#153f49"/>
+  <circle cx="80" cy="70" r="33" fill="#8f5f44"/>
+  <path d="M48 66c2-23 16-39 34-39 19 0 32 16 34 39-12-9-24-14-38-14-11 0-21 5-30 14z" fill="#1f2528"/>
+  <path d="M55 57c15-17 35-19 57-3-5-20-21-31-39-29-17 2-29 14-33 35 5-3 10-4 15-3z" fill="#1f2528"/>
+  <circle cx="68" cy="73" r="3" fill="#15191b"/>
+  <circle cx="93" cy="73" r="3" fill="#15191b"/>
+  <path d="M68 92c8 6 17 6 25 0" fill="none" stroke="#55352b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M64 97c11 9 24 9 34 0 0 10-7 18-17 18s-17-8-17-18z" fill="#1f2528" opacity=".38"/>
+  <path d="M62 105c12 8 25 8 37 0" fill="none" stroke="#1f2528" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+</svg>
