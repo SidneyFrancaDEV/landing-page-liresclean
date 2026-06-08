@@ -2,6 +2,9 @@
 
 Landing page institucional desenvolvida para a **LiresClean**, com foco na divulgação de serviços de limpeza profunda e higienização residencial, apresentação de resultados, prova social e conversão de contatos por WhatsApp.
 
+> [!NOTE]
+> Parte do conteudo do site como textos e imagens podem ainda ser conteudo "template" aguardando pocisionamento do parceiro para atualização.
+
 ## Sobre o projeto
 
 Este projeto foi desenvolvido como trabalho final da disciplina de Programação Web do curso de Ciência da Computação do Senac SP e teve como objetivo entregar um produto digital completo para um pequeno negócio, indo além da construção de uma página estática.
