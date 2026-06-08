@@ -62,6 +62,7 @@ Portanto não foram utilizados frameworks ou bibliotecas complexas.
 - `Decap CMS`: painel de gerenciamento de conteúdo usado para editar textos, imagens e blocos do site.
 - `Netlify`: plataforma de deploy e hospedagem da aplicação.
 - `Netlify Identity`: autenticação usada para liberar acesso ao painel administrativo.
+- `Git`: git foi utilizado para versionamento e colaboração.
 
 ## Deploy e CMS
 
