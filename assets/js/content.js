@@ -1,6 +1,5 @@
-// function buildWhatsAppLink(digitos) {
-//   return digitos.startsWith("55") ? `https://wa.me/${digitos}` : `https://wa.me/55${digitos}`;
-// }
+// Uso de IA: ChatGPT foi utilizado como apoio na no setUp do Swipper presente nas funções de fetch. 
+// O codigo foi revisado e refinado manualmente.
 
 function updateWhatsAppLinks(numeroDeTelefone) {
   const href = numeroDeTelefone.startsWith("55") ? `https://wa.me/${numeroDeTelefone.replaceAll(/\s/g, '')}` : `https://wa.me/55${numeroDeTelefone.replaceAll(/\s/g, '')}`;
