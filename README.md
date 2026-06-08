@@ -49,6 +49,9 @@ O direcionamento visual do projeto buscou transmitir limpeza, confiança, cuidad
 
 ## Tecnologias utilizadas
 
+Buscamos aplicar uma stack simples e competente, que fosse principalmente facil de manipular.
+Portanto não foram utilizados frameworks ou bibliotecas complexas.
+
 - `HTML5`
 - `CSS3`
 - `JavaScript`
