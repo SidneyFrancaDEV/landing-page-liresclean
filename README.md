@@ -15,7 +15,7 @@ A proposta envolveu o alinhamento com o parceiro sobre:
 - escolha de cores e tipografia
 - abordagem de comunicação
 - objetivo comercial da página
-- prototipagem integral antes do desenvolvimento
+- prototipagem da interface visual antes do desenvolvimento
 
 A estrutura do site foi pensada para destacar os benefícios do serviço, a prova visual de resultado, os depoimentos de clientes e os canais de contato.
 
@@ -70,7 +70,7 @@ O projeto foi estruturado para funcionar com deploy na **Netlify**, aproveitando
 
 Portanto:
 
-- o painel administrativo fica disponível em `admin/`
+- o painel administrativo fica disponível em `[baseurl]/admin/`
 - o `Decap CMS` faz a edição dos conteúdos
 - o `Netlify Identity` cuida da autenticação de usuários do painel
 - o `git-gateway`, configurado em `admin/config.yml` e no Netlify, permite integrar as alterações do CMS ao repositório
@@ -81,8 +81,6 @@ Na prática, isso permite editar hero, contatos, depoimentos, FAQ e resultados p
 
 ```text
 landing-page-liresclean/
-|-- index.html
-|-- README.md
 |-- admin/
 |   |-- index.html
 |   |-- config.yml
@@ -101,6 +99,8 @@ landing-page-liresclean/
 |   |-- depoimentos.json
 |   |-- faq.json
 |   |-- resultados.json
+|-- index.html
+|-- README.md
 ```
 
 ## Conteúdo dinâmico
@@ -115,7 +115,7 @@ Os dados exibidos na página são carregados da pasta `content/`, o que facilita
 
 ## Como executar
 
-O projeto pode ser aberto diretamente pelo arquivo `index.html`, mas o recomendado é executá-lo em um servidor local, já que parte do conteúdo é carregada via `fetch` a partir de arquivos `JSON`.
+Para este projeto, é recomendado executá-lo em um servidor local, já que parte do conteúdo é carregada via `fetch` a partir de arquivos `JSON`.
 
 Uma opção simples é usar o `Live Server` no VS Code.
 
@@ -126,6 +126,8 @@ npx decap-server
 ```
 
 Nesse caso, o `Node.js` precisa estar instalado no computador.
+
+A partir daí, a interface do painel administrativo fica disponivel em `localhost:xxxx/admin/`.
 
 ## Responsividade
 
